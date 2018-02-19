@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="NeedIt Priority Lookup" max_length="40" name="x_58872_needit_needit_priority_lookup" type="collection">
+        <element choice="1" choice_field="priority" choice_table="task" label="Priority" mandatory="true" max_length="40" name="priority" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="u_request_type" choice_table="x_58872_needit_needit" label="Request Type" mandatory="true" max_length="40" name="request_type" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
